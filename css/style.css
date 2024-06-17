@@ -30,7 +30,8 @@ html {
 
 .container {
     max-width: 1300px;
-    margin: 0 auto;
+    max-height: auto;
+    margin: 40px auto;
 }
 
 .row {
@@ -45,15 +46,38 @@ html {
     width: calc(100% / 3);
     height: 620px;
     padding: 0 10px;
+
+}
+
+/* Header */
+
+.header-title {
+    text-align: center;
 }
 
 .img-model {
     width: 100%;
     height: 90%;
+    display: block;
 }
 
 .clothes-name {
     font-size: 18px;
+}
+
+.description {
+    padding: 5px;
+    border: 1px solid #E7E5E1;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
 }
 
 .debug .row {
@@ -67,10 +91,4 @@ html {
 
 .debug .container {
     border: 2px solid green;
-}
-
-/* Header */
-
-.header-title {
-    text-align: center;
 }
