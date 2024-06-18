@@ -41,13 +41,44 @@ html {
     padding: 0 10px;
 }
 
+/* 
+.nav-row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+} */
+
 
 .col-33 {
     width: calc(100% / 3);
     height: 620px;
     padding: 0 10px;
+}
+
+/* .nav-col33 {
+    padding: 0 5px;
+    width: calc(100% / 3);
+    justify-content: flex-start;
+}
+
+.nav-bar {
+    background-color: orange;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    align-content: center;
 
 }
+
+.filter-menu {
+    display: flex;
+} */
 
 /* Header */
 
